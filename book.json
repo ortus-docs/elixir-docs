@@ -12,14 +12,15 @@
         "advanced-emoji"
     ],
     "pluginsConfig": {
-        "autoconfig": {
+        "autocover": {
             "author": "Luis Majano",
             "background": {
                 "color": "#09F"
             },
             "font": {
                 "color": "#FFF",
-                "family": "Impact"
+                "family": "Impact",
+                "size" : null
             },
             "size": {
                 "h": 2360,
