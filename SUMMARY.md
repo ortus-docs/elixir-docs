@@ -3,5 +3,5 @@
 * [Introduction](README.md)
 * [Installation](installation.md)
 * [Running Elixir](running_elixir.md)
-* Configuration Options
+* [Configuration Options](configuration_options.md)
 
