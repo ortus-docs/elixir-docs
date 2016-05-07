@@ -1,2 +1,0 @@
-# CodBox Helper Methods
-
