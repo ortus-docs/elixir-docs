@@ -6,31 +6,28 @@
         "advanced-emoji"
     ],
     "pluginsConfig": {
-    
-      "edit-link": {
-      "base": "https://github.com/coldbox/elixir-docs/tree/master",
-      "label": "Edit This Page"
-      },
-    "github": {
-      "url": "https://github.com/coldbox/elixir"
-    }
-      
-      "autoconfig" : {
-		    "title": "ColdBox Elixir",
-		    "author": "Luis Majano",
-		    "font": {
-		        "size": null,
-		        "family": "Impact",
-		        "color": "#FFF"
-		    },
-		    "size": {
-		        "w": 1800,
-		        "h": 2360
-		    },
-		    "background": {
-		        "color": "#09F"
-		    }
-    	}
-    
+        "autoconfig": {
+            "author": "Luis Majano",
+            "background": {
+                "color": "#09F"
+            },
+            "font": {
+                "color": "#FFF",
+                "family": "Impact",
+                "size": null
+            },
+            "size": {
+                "h": 2360,
+                "w": 1800
+            },
+            "title": "ColdBox Elixir"
+        },
+        "edit-link": {
+            "base": "https://github.com/coldbox/elixir-docs/tree/master",
+            "label": "Edit This Page"
+        },
+        "github": {
+            "url": "https://github.com/coldbox/elixir"
+        }
     }
 }
