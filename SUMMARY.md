@@ -7,7 +7,7 @@
 * [Working With Stylesheets](working_with_stylesheets.md)
 * [Working With Scripts](working_with_scripts.md)
 * [Versioning Cache Busting](versioning_cache_busting.md)
-   * [CodBox Helper Methods](versioning/codboxhelper_methods_md.md)
+   * [CodBox Helper Methods](versioning/coldbox_helper_methods.md)
 * [Copying Files & Directories](copying_files_&_directories.md)
 * [Deleting Files & Directories](deleting_files_&_directories.md)
 * [Executing Command Line Binaries](executing_command_line_binaries.md)
