@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Installation](installation.md)
-* Running Elixir
+* [Running Elixir](running_elixir.md)
 
