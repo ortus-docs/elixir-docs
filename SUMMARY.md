@@ -7,4 +7,5 @@
 * Working With Stylesheets
 * Working With Scripts
 * Versioning Cache Bustin
+* Copying Files & Directories
 
