@@ -1,4 +1,10 @@
 {
+    "links": {
+        "sharing": {
+            "facebook": false,
+            "twitter": false
+        }
+    },
     "plugins": [
         "autocover",
         "edit-link",
