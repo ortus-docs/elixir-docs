@@ -6,6 +6,14 @@
         "advanced-emoji"
     ],
     "pluginsConfig": {
+    
+      "edit-link": {
+      "base": "https://github.com/coldbox/elixir-docs/tree/master",
+      "label": "Edit This Page"
+      },
+    "github": {
+      "url": "https://github.com/coldbox/elixir"
+    }
       
       "autoconfig" : {
 		    "title": "ColdBox Elixir",
