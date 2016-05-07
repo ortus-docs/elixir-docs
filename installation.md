@@ -58,4 +58,4 @@ This will install ColdBox Elixir, Bootstrap and jQuery into the `node_modules` f
 
 <br>
 
-> **Tip** : If you are integrating with Vue.js, please see our [Vue.js](https://github.com/ColdBox/elixir/wiki/Vue.js-Integration) section
+> **Tip** : If you are integrating with Vue.js, please see our [Vue.js](vuejs_integration.md) section
