@@ -8,4 +8,5 @@
 * Working With Scripts
 * Versioning Cache Bustin
 * Copying Files & Directories
+* Deleting Files & Directories
 
