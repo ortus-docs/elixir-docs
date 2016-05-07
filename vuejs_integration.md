@@ -45,3 +45,47 @@ new Vue({
   components: { Profile }
 });
 ```
+
+And you can import any components following the same relative path of the `resources/assets/js` folder.  This example uses the optional `.vue` syntax which allows you to co-locate your template, styles, and scripts.  Read more about the `.vue` syntax [here](https://github.com/vuejs/vueify).
+
+**resources/assets/js/components/Profile.vue**
+
+```js
+<template>
+  <div class="profile">
+    {{ name }}
+  </div>
+</template>
+
+<script>
+export default {
+  data () {
+    return {
+      name: 'Luis Majano'
+    };
+  }
+};
+</script>
+
+<style>
+.profile {
+    background: #eee;
+    border: 1px solid #aaa;
+    border-radius: 2em;
+    margin: 2em auto;
+    min-height: 150px;
+    padding: 2em;
+    width: 300px;
+}
+</style>
+
+```
+
+You would then use this in your page like so:
+
+```html
+<div id="app">
+	<profile></profile>
+</div>
+<script src="/includes/js/App.js"></script>
+```
