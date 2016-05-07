@@ -5,4 +5,5 @@
 * [Running Elixir](running_elixir.md)
 * [Configuration Options](configuration_options.md)
 * Working With Stylesheets
+* Working With Scripts
 
