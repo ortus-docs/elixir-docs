@@ -3,7 +3,7 @@
 ColdBox Elixir provides a clean, fluent API for defining basic [Gulp](http://gulpjs.com/) tasks for your ColdBox applications.  This project was forked from the [Laravel Elixir](https://github.com/laravel/elixir) project, so many many thanks for all their hard work and ideas.
 
 ## How it works
-Elixir supports several common CSS, JavaScript pre-processors, and TestBox runner integrations. By leveraging your familiar `Gulpfile.js` configuration file, you can use method chaining and Elixir will allow you to fluently define your asset pipeline using conventions. For example:
+Elixir supports several common CSS, JavaScript pre-processors, and TestBox runner integrations. By leveraging Gulp and the `Gulpfile.js` configuration file, you can use method chaining and Elixir will allow you to fluently define your asset pipeline using conventions. For example:
 
 ```js
 var elixir = require( 'coldbox-elixir' );
