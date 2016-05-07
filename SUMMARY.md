@@ -7,6 +7,6 @@
 * [Working With Stylesheets](working_with_stylesheets.md)
 * [Working With Scripts](working_with_scripts.md)
 * [Versioning Cache Busting](versioning_cache_busting.md)
-* Copying Files & Directories
+* [Copying Files & Directories](copying_files_&_directories.md)
 * Deleting Files & Directories
 
