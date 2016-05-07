@@ -8,5 +8,5 @@
 * [Working With Scripts](working_with_scripts.md)
 * [Versioning Cache Busting](versioning_cache_busting.md)
 * [Copying Files & Directories](copying_files_&_directories.md)
-* Deleting Files & Directories
+* [Deleting Files & Directories](deleting_files_&_directories.md)
 
