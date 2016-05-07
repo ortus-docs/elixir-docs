@@ -13,4 +13,5 @@
 * [Calling Gulp Tasks](calling_gulp_tasks.md)
 * [Custom Watchers](custom_watchers.md)
 * [BrowserSync](browsersync.md)
+* CodBox Helper Methods
 
