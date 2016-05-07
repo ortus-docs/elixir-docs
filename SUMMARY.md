@@ -15,4 +15,5 @@
 * [BrowserSync](browsersync.md)
 * [CodBox Helper Methods](codbox_helper_methods.md)
 * [Vue.js Integration](vuejs_integration.md)
+* Writing Elixir Extensions
 
