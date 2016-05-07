@@ -14,5 +14,5 @@
 * [Custom Watchers](custom_watchers.md)
 * [BrowserSync](browsersync.md)
 * [CodBox Helper Methods](codbox_helper_methods.md)
-* Vue.js Integration
+* [Vue.js Integration](vuejs_integration.md)
 
