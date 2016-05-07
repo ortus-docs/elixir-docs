@@ -1,7 +1,8 @@
 {
     "plugins": [
         "autocover",
-        "edit-link"
+        "edit-link",
+        "github"
     ],
     "pluginsConfig": {}
 }
