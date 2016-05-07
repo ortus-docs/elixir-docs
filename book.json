@@ -6,28 +6,11 @@
         }
     },
     "plugins": [
-        "autocover",
         "edit-link",
         "github",
         "advanced-emoji"
     ],
     "pluginsConfig": {
-        "autocover": {
-            "author": "Luis Majano",
-            "background": {
-                "color": "#09F"
-            },
-            "font": {
-                "color": "#FFF",
-                "family": "Impact",
-                "size" : null
-            },
-            "size": {
-                "h": 2360,
-                "w": 1800
-            },
-            "title": "ColdBox Elixir"
-        },
         "edit-link": {
             "base": "https://github.com/coldbox/elixir-docs/tree/master",
             "label": "Edit This Page"
