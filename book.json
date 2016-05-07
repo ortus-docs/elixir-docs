@@ -2,7 +2,8 @@
     "plugins": [
         "autocover",
         "edit-link",
-        "github"
+        "github",
+        "advanced-emoji"
     ],
     "pluginsConfig": {}
 }
