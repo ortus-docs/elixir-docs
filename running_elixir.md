@@ -32,6 +32,8 @@ gulp
 gulp --production
 ```
 
+You can also programmatically add a production flag into your `Gulpfile.js` by using the configuration option: `elixir.config.production` boolean flag.
+
 ## Watching Assets For Changes
 
 Since it is inconvenient to run the gulp command on your terminal after every change to your assets, you may use the `gulp watch` command. This command will continue running in your terminal and watch your assets for any changes. When changes occur, new files will automatically be compiled or tested:
