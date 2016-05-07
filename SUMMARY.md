@@ -14,6 +14,6 @@
 * [Calling Gulp Tasks](calling_gulp_tasks.md)
 * [Custom Watchers](custom_watchers.md)
 * [BrowserSync](browsersync.md)
-* [Vue.js Integration](vuejs_integration.md)
+* [Vue js Integration](vuejs_integration.md)
 * [Writing Elixir Extensions](writing_elixir_extensions.md)
 
