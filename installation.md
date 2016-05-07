@@ -49,7 +49,7 @@ It defines ColdBox Elixir, Bootstrap and jQuery as your dependencies.  You may t
 npm install
 ```
 
-> Please note that jQuery and Bootstrap are added for convenience, they are not needed for ColdBox Elixir.  So feel free to remove them or add any other UI dependency you like.
+Please note that jQuery and Bootstrap are added for convenience, they are not needed for ColdBox Elixir.  So feel free to remove them or add any other UI dependency you like.
 
 
 This will install ColdBox Elixir, Bootstrap and jQuery into the `node_modules` folder in your root.  This folder has been already added to the `.gitignore` file as well, so no need to further ignore it.
