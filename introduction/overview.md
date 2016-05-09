@@ -37,5 +37,3 @@ elixir( function( mix ) {
 ```
 
 If you've ever been confused about how to get started with Gulp and asset compilation, you will love ColdBox Elixir. However, you are not required to use it while developing your application. You are free to use any asset pipeline tool you wish, or even none at all.
-
-
