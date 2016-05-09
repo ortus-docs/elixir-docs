@@ -33,6 +33,20 @@ MIT License: https://opensource.org/licenses/MIT.
 - Issues: http://github.com/coldbox-elixir/issues
 - Documentation: http://coldbox-elixir.ortusbooks.com
 
+## Professional Open Source
+
+![Ortus Solutions, Corp](images/ortussolutions_button.png)
+
+ColdBox Relax is a professional open source software backed by [Ortus Solutions, Corp](http://www.ortussolutions.com/services) offering services like:
+* Custom Development
+* Professional Support & Mentoring
+* Training
+* Server Tuning
+* Security Hardening
+* Code Reviews
+* [Much More](http://www.ortussolutions.com/services)
+
+
 ## How it works
 Elixir supports several common CSS, JavaScript pre-processors, and TestBox runner integrations. By leveraging Gulp and the `Gulpfile.js` configuration file, you can use method chaining and Elixir will allow you to fluently define your asset pipeline using conventions. 
 
