@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-   * Changelog
+   * [Changelog](introduction/changelog.md)
 * [Installation](installation.md)
 * [Running Elixir](running_elixir.md)
 * [Configuration Options](configuration_options.md)
