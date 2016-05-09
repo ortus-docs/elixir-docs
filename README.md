@@ -26,7 +26,12 @@ And constructed with the following guidelines:
 
 
 ## License
-MIT License: https://opensource.org/licenses/MIT
+MIT License: https://opensource.org/licenses/MIT.
+
+## Important Links
+- Code: http://github.com/coldbox-elixir
+- Issues: http://github.com/coldbox-elixir/issues
+- Documentation: http://coldbox-elixir.ortusbooks.com
 
 ## How it works
 Elixir supports several common CSS, JavaScript pre-processors, and TestBox runner integrations. By leveraging Gulp and the `Gulpfile.js` configuration file, you can use method chaining and Elixir will allow you to fluently define your asset pipeline using conventions. 
