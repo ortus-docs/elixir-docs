@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
    * [Changelog](introduction/changelog.md)
+   * Overview
 * [Installation](installation.md)
 * [Running Elixir](running_elixir.md)
 * [Configuration Options](configuration_options.md)
