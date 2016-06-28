@@ -5,11 +5,11 @@ The `copy` method may be used to copy files and/or directories to new locations.
 
 ```js
 elixir( function( mix ){
-    mix.copy( 'vendor/foo/bar.css', 'public/css/bar.css' );
+    mix.copy( 'resources/vendor/foo/bar.css', 'includes/css/bar.css' );
 } );
 
 elixir( function( mix ){
-    mix.copy( 'vendor/package/views', 'resources/views' );
+    mix.copy( 'vendor/package/views', 'views' );
 } );
 ```
 
