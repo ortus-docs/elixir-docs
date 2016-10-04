@@ -144,4 +144,6 @@ elixir( function( mix ){
 } );
 ```
 
+# Other Pre-processors
 
+Elixir can be extended with any other pre-processor you would like.  Check out [`coldbox-elixir-stylus`](https://github.com/coldbox-elixir/extension-stylus) for an official Stylus extension or see our docs on [writing your own extensions](writing_elixir_extensions.md) for others!
