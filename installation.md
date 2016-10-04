@@ -13,7 +13,7 @@ node -v
 Next, you'll want to pull in Gulp as a global NPM package so you have it available for any ColdBox application.
 
 ```
-npm install --g gulp
+npm install -g gulp
 ```
 
 If you use a version control system, you may wish to run the npm [shrinkwrap](https://docs.npmjs.com/cli/shrinkwrap) to lock your NPM requirements:
