@@ -1,5 +1,7 @@
 # Writing Elixir Extensions
 
+> **Tip:** Looking at the code for the official ColdBox Elixir extensions will help immensely as you begin writing your own extensions.  You can find them in the at [ColdBox Elixir](https://github.com/coldbox-elixir) GitHub organization prefixed with `extension-`.
+
 If you need more flexibility than Elixir's `task` method can provide, you may create custom Elixir extensions. Elixir extensions allow you to pass arguments to your custom tasks. For example, you could write an extension like so:
 
 ```js
