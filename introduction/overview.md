@@ -3,7 +3,7 @@
 Here is a quick overview of how ColdBox Elixir works.
 
 ## How it works
-Elixir supports several common CSS pre-processors, JavaScript compilers, and TestBox runner integrations. By leveraging Gulp and the `Gulpfile.js` configuration file, you can use method chaining and Elixir will allow you to fluently define your asset pipeline using conventions. 
+Elixir supports several common CSS pre-processors, JavaScript compilers, and TestBox runner integrations. By leveraging Gulp and the `Gulpfile.js` configuration file, Elixir will allow you to fluently define your asset pipeline using conventions. 
 
 ## Conventions
 
