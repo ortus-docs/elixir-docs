@@ -10,7 +10,7 @@ To compile [Less](http://lesscss.org/) into CSS, you may use the `less` method. 
 
 ```js
 elixir( function( mix ){
-    mix.less( 'app.less' );
+    mix.less( "app.less" );
 } );
 ```
 
@@ -19,8 +19,8 @@ You may also combine multiple Less files into a single CSS file. Again, the resu
 ```js
 elixir( function( mix ){
     mix.less( [
-        'app.less',
-        'controllers.less'
+        "app.less",
+        "controllers.less"
     ] );
 } );
 ```
@@ -29,12 +29,12 @@ If you wish to customize the output location and/or name of the compiled CSS, yo
 
 ```js
 elixir( function( mix ){
-    mix.less( 'app.less', 'includes/stylesheets' );
+    mix.less( "app.less", "includes/stylesheets" );
 } );
 
 // Specifying a specific custom output filename...
 elixir( function( mix ){
-    mix.less( 'app.less', 'includes/stylesheets/style.css' );
+    mix.less( "app.less", "includes/stylesheets/style.css" );
 } );
 ```
 
