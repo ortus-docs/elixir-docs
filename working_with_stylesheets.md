@@ -46,7 +46,7 @@ The `sass` method allows you to compile [Sass](http://sass-lang.com/) into CSS. 
 
 ```js
 elixir( function( mix ){
-    mix.sass( 'app.scss' );
+    mix.sass( "app.scss" );
 } );
 ```
 
@@ -54,13 +54,13 @@ Again, like the `less` method, you may compile multiple Sass files into a single
 
 ```
 elixir( function( mix ){
-    mix.sass( 
-    	[
-       	'app.scss',
-       	'controllers.scss'
-    	], 
-   		'public/assets/css' 
-   );
+    mix.sass(
+        [
+            "app.scss",
+            "controllers.scss"
+        ], 
+        "public/assets/css"
+    );
 } );
 ```
 
@@ -73,8 +73,8 @@ If you would just like to combine and minify CSS stylesheets into a single file,
 ```js
 elixir( function( mix ){
     mix.styles( [
-        'normalize.css',
-        'main.css'
+        "normalize.css",
+        "main.css"
     ] );
 } );
 ```
@@ -85,10 +85,10 @@ Of course, you may also output the resulting file to a custom location by passin
 elixir( function( mix ){
     mix.styles(
     	[
-        	'normalize.css',
-        	'main.css'
+        	"normalize.css",
+        	"main.css"
     	], 
-    	'public/assets/css'
+    	"public/assets/css"
    );
 } );
 ```
@@ -100,7 +100,7 @@ The third optional argument is the base directory override, you can use it to ov
 If you need to combine all of the css in a given directory, you may use the `stylesIn` method or globbing patterns. The resulting css will be placed in `includes/css/all.css`:
 
 elixir( function( mix ){
-    mix.stylesIn( 'resources/css/some/directory' );
+    mix.stylesIn( "resources/css/some/directory" );
 } );
 
 
@@ -114,15 +114,15 @@ The method assumes the starting place of all paths from the `root` of your appli
 elixir( function( mix ){
     mix.combine( 
     	[
-        	'resources/assets/vendor/date.css',
-        	'resources/assets/vendor/app.css',
+        	"resources/assets/vendor/date.css",
+        	"resources/assets/vendor/app.css",
     	],
     	"includes/css/combined.css"
     );
     
     mix.combine( 
     	[
-            'resources/assets/vendor/*.css'
+            "resources/assets/vendor/*.css"
     	],
     	"includes/css/combined.css"
     );
