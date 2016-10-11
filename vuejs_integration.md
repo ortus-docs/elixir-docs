@@ -80,7 +80,7 @@ export default {
 </style>
 ```
 
-ou would then use this in your ColdBox layout or view like so:
+You would then use this in your ColdBox layout or view like so:
 
 ```html
 <div id="app">
