@@ -3,7 +3,7 @@
 Elixir is built on top of Gulp, so to run your Elixir tasks you only need to run the `gulp` command in your terminal, as you will already have a `Gulpfile.js` in your project root that will resemble the following:
 
 ```js
-var elixir = require( 'coldbox-elixir' );
+var elixir = require( "coldbox-elixir" );
 
 /*
  |--------------------------------------------------------------------------

@@ -31,8 +31,8 @@ MIT License: [https:\/\/opensource.org\/licenses\/MIT](https://opensource.org/li
 
 ## Important Links
 
-* Code: [http:\/\/github.com\/coldbox-elixir](http://github.com/coldbox-elixir)
-* Issues: [http:\/\/github.com\/coldbox-elixir\/issues](http://github.com/coldbox-elixir/issues)
+* Code: [http:\/\/github.com\/coldbox-elixir\/core](http://github.com/coldbox-elixir/core)
+* Issues: [http:\/\/github.com\/coldbox-elixir\/core\/issues](http://github.com/coldbox-elixir/core/issues)
 * Documentation: [http:\/\/coldbox-elixir.ortusbooks.com](http://coldbox-elixir.ortusbooks.com)
 
 ## Professional Open Source
