@@ -10,25 +10,25 @@ You will begin by installing Vue.js via npm: `npm install vue --save`.  This wil
 {
   "private": true,
   "devDependencies": {
+    "coldbox-elixir": "1.1.0",
     "gulp": "^3.9.1"
   },
   "dependencies": {
-    "coldbox-elixir": "1.1.0",
-    "vue": "^1.0.21"
+    "vue": "^2.0.0"
   }
 }
 ```
 
-Then create your normal JavaScript and Vue components in your `resources/assets/js` folder.  You can even use the new (EcmaScript6)[https://babeljs.io/docs/learn-es2015/] syntax if you like, then just mix them up using the `browserify` method:
+Then create your normal JavaScript and Vue components in your `resources/assets/js` folder.  You can even use the new (EcmaScript6)[https://babeljs.io/docs/learn-es2015/] syntax if you like, then just mix them up using the `webpack`, `rollup`, or `browserify` method:
 
 **Gulpfile.js**
 
 ```js
-var elixir = require( 'coldbox-elixir' );
+var elixir = require( "coldbox-elixir" );
 
 
 elixir( function( mix ){
-    mix.browserify( 'App.js' );
+    mix.webpack( "app.js" );
 });
 ```
 
@@ -42,11 +42,30 @@ import Profile from './components/Profile.vue';
 
 new Vue({
   el: '#app',
+  data: {
+    message: "Hello, world!"
+  }
+});
+```
+
+And you can import any components following the same relative path of the `resources/assets/js` folder.
+
+You can also use the optional `.vue` syntax which allows you to co-locate your template, styles, and scripts.  Read more about the `.vue` syntax [here](https://github.com/vuejs/vueify).
+
+
+**resources/assets/js/App.js**
+
+```js
+import Vue from 'vue';
+import Profile from './components/Profile.vue';
+
+new Vue({
+  el: '#app',
   components: { Profile }
 });
 ```
 
-And you can import any components following the same relative path of the `resources/assets/js` folder.  This example uses the optional `.vue` syntax which allows you to co-locate your template, styles, and scripts.  Read more about the `.vue` syntax [here](https://github.com/vuejs/vueify).
+To use this syntax, you will need the [`coldbox-elixir-vue`](https://github.com/coldbox-elixir/extension-vue) or [`coldbox-elixir-vue-2`](https://github.com/coldbox-elixir/extension-vue-2) extension, depending on which version of Vue.js you are running. See the individual GitHub pages for installation instructions.
 
 **resources/assets/js/components/Profile.vue**
 
