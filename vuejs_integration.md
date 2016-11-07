@@ -38,7 +38,6 @@ Your `App.js` can look like this:
 
 ```js
 import Vue from 'vue';
-import Profile from './components/Profile.vue';
 
 new Vue({
   el: '#app',
