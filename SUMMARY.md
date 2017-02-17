@@ -10,6 +10,7 @@
 * [Working With Scripts](working_with_scripts.md)
 * [Versioning Cache Busting](versioning/index.md)
    * [ColdBox Helper Methods](versioning/coldbox_helper_methods.md)
+* [Mixing in tasks from ColdBox Modules](coldbox_modules.md)
 * [Copying Files & Directories](copying_files_&_directories.md)
 * [Deleting Files & Directories](deleting_files_&_directories.md)
 * [Executing Command Line Binaries](executing_command_line_binaries.md)
