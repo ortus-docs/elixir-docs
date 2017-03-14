@@ -1,4 +1,4 @@
-# CodBox Helper Methods
+# ColdBox Helper Methods
 
 ColdBox v4.3.0 has two methods in the HTML Helper object: `elixir() and elixirPath()` to specifically help with versioned assets exclusively.  
 
