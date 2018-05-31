@@ -11,7 +11,8 @@
         "advanced-emoji",
         "sitemap",
         "collapsible-chapters",
-        "anchors"
+        "anchors",
+        "versions"
     ],
     "pluginsConfig": {
         "edit-link": {
@@ -19,10 +20,13 @@
             "label": "Edit This Page"
         },
         "github": {
-            "url": "https://github.com/coldbox/elixir"
+            "url": "https://github.com/ortus-solutions/coldbox-elixir"
         },
         "sitemap": {
             "hostname": "https://coldbox-elixir.ortusbooks.com"
+        },
+        "version": {
+            "type": "branches"
         }
     }
 }

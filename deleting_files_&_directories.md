@@ -1,37 +1,24 @@
 # Deleting Files & Directories
 
-You might want to delete some files before, during or after running your build. Since deleting files doesn't work on the file contents, there's no reason to use a gulp plugin within Elixir. You can use the [`del`](https://github.com/sindresorhus/del) module which is included in ColdBox Elixir and it supports multiple files and [globbing](https://github.com/sindresorhus/multimatch#globbing-patterns):
-
-
-Imagine the following file structure:
+By default the following directories are cleaned out for each build:
 
 ```
-.
-├── dist
-│   ├── report.csv
-│   ├── desktop
-│   └── mobile
-│       ├── app.js
-│       ├── deploy.json
-│       └── index.html
-└── src
+"includes/js"
+"includes/css"
+"includes/fonts"
+"includes/media"
+"includes/images"
 ```
 
-In the gulpfile we want to clean out the contents of the `mobile` folder before running our build:
+If you would like to add additional directories, you can do so by configuring a new instance of the `CleanWebpackPlugin`:
 
 ```js
-var del 	= require( 'del' );
-var elixir 	= require( 'coldbox-elixir' );
+const elixir = require("coldbox-elixir");
+const CleanWebpackPlugin = require("clean-webpack-plugin");
 
-elixir( function( mix ){
-	
-	del( [
-	    'dist/report.csv',
-	    // here we use a globbing pattern to match everything inside the `mobile` folder
-	    'dist/mobile/**/*',
-	    // we don't want to clean this file though so we negate the pattern
-	    '!dist/mobile/deploy.json'
-	] );
-	
-} );
+elixir.config.mergeConfig({
+    plugins: [
+        new CleanWebpackPlugin(["my/custom/directory"], { root: elixir.rootPath })
+    ]
+});
 ```
