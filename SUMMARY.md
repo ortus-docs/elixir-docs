@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Changelog](changelog.md)
+* [Migration Guide](migration_guide.md)
 * [Installation](installation.md)
 * [Running Elixir](running_elixir.md)
 * [Configuration Options](configuration_options.md)
@@ -9,6 +10,7 @@
 * [Working With Scripts](working_with_scripts.md)
 * [Versioning Cache Busting](versioning.md)
 * [Mixing in tasks from ColdBox Modules](coldbox_modules.md)
+* [ContentBox Integration](contentbox_integration.md)
 * [Copying Files & Directories](copying_files_&_directories.md)
 * [Deleting Files & Directories](deleting_files_&_directories.md)
 * [BrowserSync](browsersync.md)
