@@ -37,6 +37,10 @@ module.exports = elixir(mix => {
 }
 ```
 
+## Asset Names
+
+Due to the way Webpack processes css files, you can no longer have a css file named `vendor`.
+
 ## Tasks
 
 The following tasks have been removed from ColdBox Elixir.

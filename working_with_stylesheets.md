@@ -4,6 +4,8 @@ Elixir processes all CSS files through Webpack. This brings with it some nifty W
 
 # CSS
 
+> Due to the way Webpack processes css files, you can no longer have a css file named `vendor`.
+
 You can mix traditional css with webpack using `mix.css`. You can pass one file or an array of files.
 
 ```js
