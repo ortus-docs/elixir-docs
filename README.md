@@ -1,6 +1,6 @@
 # Welcome to ColdBox Elixir
 
-![ColdBox Platform](./images/elixirLogo300.png)
+![Elixir Logo](./images/elixirLogo300.png)
 
 ColdBox Elixir provides a clean, fluent API for defining basic [Webpack](http://webpack.js.org/) tasks for your ColdBox applications.
 
