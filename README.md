@@ -1,13 +1,6 @@
-```
- _______        _____ _     _ _____  ______
- |______ |        |    \___/    |   |_____/
- |______ |_____ __|__ _/   \_ __|__ |    \_
-
-```
-
 # Welcome to ColdBox Elixir
 
-![ColdBox Platform](./images/ColdBoxLogo2015_300.png)
+![ColdBox Platform](./images/elixirLogo300.png)
 
 ColdBox Elixir provides a clean, fluent API for defining basic [Webpack](http://webpack.js.org/) tasks for your ColdBox applications.
 
