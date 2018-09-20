@@ -32,4 +32,4 @@ The easiest way to run Webpack is to set up some NPM scripts.  Here are the foll
 }
 ```
 
-Then from the terminal you can run `npm run [scriptName]` to run the associated script.
+Then from the terminal you can run `npm run [scriptName for this example either dev, watch or prod]` to run the associated script.
