@@ -9,3 +9,4 @@ const elixir = require("coldbox-elixir");
 module.exports = elixir(mix => {
     mix.copy("resources/vendor/foo/bar.css", "includes/css/bar.css");
 });
+```
