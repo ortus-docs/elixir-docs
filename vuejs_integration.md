@@ -99,3 +99,14 @@ You would then use this in your ColdBox layout or view like so:
 </div>
 <script src="/includes/js/App.js"></script>
 ```
+
+Any style blocks in your `.vue` components will be extracted as well to the same directory as your javascript file as
+a css file.  For example, if you were compiling `mix.vue( "app.js" )` Elixir would generate a `includes/js/app.css` file
+containing the css for the style blocks used in that entrypoint.
+
+> Note: there are some drawbacks with style blocks in Vue components and Elixir.
+> if you are creating multiple entry points with multiple `mix.vue` calls, any
+> style blocks in shared components will be duplicated in each of the css files.
+> Additionally, because Elixir is already extracting other css files, style blocks
+> in Vue components are always extracted.  For these reasons, we recommend using
+> other approaches to managing your css with Vue components and Elixir.
