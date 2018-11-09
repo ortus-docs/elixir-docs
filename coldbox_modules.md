@@ -38,7 +38,7 @@ You can specify and array of folders to include, folders to exclude, or change t
 | ---------- | ------------------- |
 | `includes` | `["modules_app"]`   |
 | `excludes` | `[]`                |
-| `fileName` | `elixir-modules.js` |
+| `fileName` | `elixir-module.js` |
 
 ## Running a Single Module
 
