@@ -1,19 +1,12 @@
-```
- _______        _____ _     _ _____  ______
- |______ |        |    \___/    |   |_____/
- |______ |_____ __|__ _/   \_ __|__ |    \_
-
-```
-
 # Welcome to ColdBox Elixir
 
-![ColdBox Platform](./images/ColdBoxLogo2015_300.png)
+![Elixir Logo](./images/elixirLogo300.png)
 
-ColdBox Elixir provides a clean, fluent API for defining basic [Gulp](http://gulpjs.com/) tasks for your ColdBox applications.  This project was forked from the [Laravel Elixir](https://github.com/laravel/elixir) project, so many many thanks for all their hard work and ideas.
+ColdBox Elixir provides a clean, fluent API for defining basic [Webpack](http://webpack.js.org/) tasks for your ColdBox applications.
 
 ## Versioning
 
-ColdBox Elixir is maintained under the [Semantic Versioning](http://semver.org) guidelines as much as possible.Releases will be numbered with the following format:
+ColdBox Elixir is maintained under the [Semantic Versioning](http://semver.org) guidelines as much as possible. Releases will be numbered with the following format:
 
 ```
 <major>.<minor>.<patch>
@@ -31,8 +24,8 @@ MIT License: [https:\/\/opensource.org\/licenses\/MIT](https://opensource.org/li
 
 ## Important Links
 
-* Code: [http:\/\/github.com\/coldbox-elixir\/core](http://github.com/coldbox-elixir/core)
-* Issues: [http:\/\/github.com\/coldbox-elixir\/core\/issues](http://github.com/coldbox-elixir/core/issues)
+* Code: [http:\/\/github.com\/ortus-solutions\/coldbox-elixir](http://github.com/ortus-solutions/coldbox-elixir)
+* Issues: [https:\/\/ortussolutions.atlassian.net\/secure\/RapidBoard.jspa?projectKey=ELIXIR](https://ortussolutions.atlassian.net/secure/RapidBoard.jspa?projectKey=ELIXIR)
 * Documentation: [http:\/\/coldbox-elixir.ortusbooks.com](http://coldbox-elixir.ortusbooks.com)
 
 ## Professional Open Source
@@ -57,4 +50,3 @@ Because of His grace, this project exists. If you don't like this, then don't re
 
 > "Therefore being justified by **faith**, we have peace with God through our Lord Jesus Christ:
 > By whom also we have access by **faith** into this **grace** wherein we stand, and rejoice in hope of the glory of God." Romans 5:5
-

@@ -4,13 +4,9 @@ The `copy` method may be used to copy files and/or directories to new locations.
 
 
 ```js
-elixir( function( mix ){
-    mix.copy( 'resources/vendor/foo/bar.css', 'includes/css/bar.css' );
-} );
+const elixir = require("coldbox-elixir");
 
-elixir( function( mix ){
-    mix.copy( 'vendor/package/views', 'views' );
-} );
+module.exports = elixir(mix => {
+    mix.copy("resources/vendor/foo/bar.css", "includes/css/bar.css");
+});
 ```
-
-> **Tip**: The first argument can be a file or folder path or an array of paths. You can also use any globbing patterns.
