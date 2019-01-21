@@ -12,8 +12,8 @@ module.exports = elixir(mix => {
         "node_modules/jquery/dist/jquery.min.js",
         "node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js"
     ], {
-        name = "vendor",
-        entryDirectory = ""
+        name: "vendor",
+        entryDirectory: ""
     });
 });
 ```
