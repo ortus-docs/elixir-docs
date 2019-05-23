@@ -20,13 +20,13 @@ And constructed with the following guidelines:
 
 ## License
 
-MIT License: [https:\/\/opensource.org\/licenses\/MIT](https://opensource.org/licenses/MIT).
+MIT License: [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT).
 
 ## Important Links
 
-* Code: [http:\/\/github.com\/ortus-solutions\/coldbox-elixir](http://github.com/ortus-solutions/coldbox-elixir)
-* Issues: [https:\/\/ortussolutions.atlassian.net\/secure\/RapidBoard.jspa?projectKey=ELIXIR](https://ortussolutions.atlassian.net/secure/RapidBoard.jspa?projectKey=ELIXIR)
-* Documentation: [http:\/\/coldbox-elixir.ortusbooks.com](http://coldbox-elixir.ortusbooks.com)
+* Code: [http://github.com/ortus-solutions/coldbox-elixir](http://github.com/ortus-solutions/coldbox-elixir)
+* Issues: [https://ortussolutions.atlassian.net/secure/RapidBoard.jspa?projectKey=ELIXIR](https://ortussolutions.atlassian.net/secure/RapidBoard.jspa?projectKey=ELIXIR)
+* Documentation: [http://coldbox-elixir.ortusbooks.com](http://coldbox-elixir.ortusbooks.com)
 
 ## Professional Open Source
 
