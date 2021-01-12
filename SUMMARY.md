@@ -1,4 +1,4 @@
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
 * [Changelog](changelog.md)
@@ -11,8 +11,10 @@
 * [Versioning Cache Busting](versioning.md)
 * [Mixing in tasks from ColdBox Modules](coldbox_modules.md)
 * [ContentBox Integration](contentbox_integration.md)
-* [Copying Files & Directories](copying_files_&_directories.md)
-* [Deleting Files & Directories](deleting_files_&_directories.md)
+* [Copying Files & Directories](copying_files_and_directories.md)
+* [Deleting Files & Directories](deleting_files_and_directories.md)
+* [Environment Variables](environment-variables.md)
 * [BrowserSync](browsersync.md)
 * [Vue.js Integration](vuejs_integration.md)
 * [Writing Elixir Extensions](writing_elixir_extensions.md)
+

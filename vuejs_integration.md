@@ -2,11 +2,11 @@
 
 ColdBox Elixir lets you work with `.vue` files out of the box.
 
-You will begin by installing Vue.js via npm: `npm install vue`.  This will add `Vue` as a dependency for your project in your project's `package.json` and into the `node_modules` directory.  The following is the `package.json` you should use when integrating with Vue.js:
+You will begin by installing Vue.js via npm: `npm install vue`. This will add `Vue` as a dependency for your project in your project's `package.json` and into the `node_modules` directory. The following is the `package.json` you should use when integrating with Vue.js:
 
 **package.json**
 
-```js
+```javascript
 {
   "private": true,
   "devDependencies": {
@@ -20,7 +20,7 @@ You will begin by installing Vue.js via npm: `npm install vue`.  This will add `
 
 Then create your normal JavaScript and Vue components in your `resources/assets/js` folder.
 
-```js
+```javascript
 const elixir = require("coldbox-elixir");
 
 module.exports = elixir(mix => {
@@ -32,7 +32,7 @@ Your `App.js` can look like this:
 
 **resources/assets/js/App.js**
 
-```js
+```javascript
 import Vue from "vue";
 
 new Vue({
@@ -49,7 +49,7 @@ You can also use the optional `.vue` syntax which allows you to co-locate your t
 
 **resources/assets/js/App.js**
 
-```js
+```javascript
 import Vue from "vue";
 import Profile from "./components/Profile.vue";
 
@@ -61,7 +61,7 @@ new Vue({
 
 **resources/assets/js/components/Profile.vue**
 
-```
+```text
 <template>
   <div class="profile">
     {{ name }}
@@ -93,20 +93,14 @@ export default {
 
 You would then use this in your ColdBox layout or view like so:
 
-```html
+```markup
 <div id="app">
-	<profile></profile>
+    <profile></profile>
 </div>
 <script src="/includes/js/App.js"></script>
 ```
 
-Any style blocks in your `.vue` components will be extracted as well to the same directory as your javascript file as
-a css file.  For example, if you were compiling `mix.vue( "app.js" )` Elixir would generate a `includes/js/app.css` file
-containing the css for the style blocks used in that entrypoint.
+Any style blocks in your `.vue` components will be extracted as well to the same directory as your javascript file as a css file. For example, if you were compiling `mix.vue( "app.js" )` Elixir would generate a `includes/js/app.css` file containing the css for the style blocks used in that entrypoint.
 
-> Note: there are some drawbacks with style blocks in Vue components and Elixir.
-> if you are creating multiple entry points with multiple `mix.vue` calls, any
-> style blocks in shared components will be duplicated in each of the css files.
-> Additionally, because Elixir is already extracting other css files, style blocks
-> in Vue components are always extracted.  For these reasons, we recommend using
-> other approaches to managing your css with Vue components and Elixir.
+> Note: there are some drawbacks with style blocks in Vue components and Elixir. if you are creating multiple entry points with multiple `mix.vue` calls, any style blocks in shared components will be duplicated in each of the css files. Additionally, because Elixir is already extracting other css files, style blocks in Vue components are always extracted. For these reasons, we recommend using other approaches to managing your css with Vue components and Elixir.
+

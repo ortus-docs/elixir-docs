@@ -2,7 +2,7 @@
 
 ColdBox Elixir has a few helper methods when working in a ContentBox app.
 
-```js
+```javascript
 const elixir = require("coldbox-elixir");
 
 module.exports = elixir(mix => {
@@ -17,10 +17,9 @@ These two methods work just like a call to `mix.modules` with some different def
 
 ## `mix.themes`
 
-This method will look inside the `modules_app/contentbox-custom/_themes` directory for any folders with a
-`elixir-theme.js` file.  The `elixir-theme.js` file is identical to a `elixir-module.js` file.
+This method will look inside the `modules_app/contentbox-custom/_themes` directory for any folders with a `elixir-theme.js` file. The `elixir-theme.js` file is identical to a `elixir-module.js` file.
 
 ## `mix.contentbox`
 
-This method will look inside the `modules_app/contentbox-custom/_modules` directory for any folders with a
-`elixir-module.js` file.
+This method will look inside the `modules_app/contentbox-custom/_modules` directory for any folders with a `elixir-module.js` file.
+

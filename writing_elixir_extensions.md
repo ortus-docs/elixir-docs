@@ -2,10 +2,9 @@
 
 ## `mergeConfig`
 
-Occasionally you will need to extend Webpack in ways not supported by ColdBox Elixir.  In these moments, you can provide your
-own configuration using the `mergeConfig` method.
+Occasionally you will need to extend Webpack in ways not supported by ColdBox Elixir. In these moments, you can provide your own configuration using the `mergeConfig` method.
 
-```js
+```javascript
 const elixir = require("coldbox-elixir");
 
 elixir.config.mergeConfig({
@@ -17,9 +16,9 @@ The `mergeConfig` method will merge the object provided with the existing Webpac
 
 ## Custom Ingredients
 
-Ingredients are the name for the methods available on the `mix` object.  You can add an ingredient to your Elixir instance like so:
+Ingredients are the name for the methods available on the `mix` object. You can add an ingredient to your Elixir instance like so:
 
-```js
+```javascript
 const elixir = require("coldbox-elixir");
 
 elixir.config.addIngredient("nameOfIngredient", () => {
@@ -31,7 +30,8 @@ elixir.config.addIngredient("nameOfIngredient", () => {
 
 The main use cases for using an ingredient over custom config are:
 
-1. Need to call multiple times each time for different file(s)
+1. Need to call multiple times each time for different file\(s\)
 2. Want to re-use across projects
 
 Especially in the second case, feel free to publish the ingredient on NPM if you feel it could be useful to other developers.
+

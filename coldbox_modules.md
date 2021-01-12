@@ -2,7 +2,7 @@
 
 ColdBox Modules can be an excellent way to structure your project, and ColdBox Elixir is the perfect companion. Use all the Elixir methods you know and love in your modules, and Elixir will build them all for you with just one command.
 
-```js
+```javascript
 const elixir = require("coldbox-elixir");
 
 module.exports = elixir(mix => {
@@ -14,7 +14,7 @@ module.exports = elixir(mix => {
 
 To specify what Elixir functions to run a module needs to define an `elixir-module.js` file. This file looks very similar to your `webpack.config.js`. Here is an example of one:
 
-```js
+```javascript
 module.exports = mix => {
     mix.sass("app.scss");
 };
@@ -24,7 +24,7 @@ The function here is exactly the same function you would write inside the `elixi
 
 Elixir will scope the changes to the current module's directory. This means, for example, that:
 
-```js
+```javascript
 mix.sass("app.scss");
 ```
 
@@ -34,17 +34,17 @@ Inside of a module with a path `/modules_app/my-module/elixir-module.js` will lo
 
 You can specify and array of folders to include, folders to exclude, or change the default file name if you wish:
 
-| Argument   | Default Value       |
-| ---------- | ------------------- |
-| `includes` | `["modules_app"]`   |
-| `excludes` | `[]`                |
+| Argument | Default Value |
+| :--- | :--- |
+| `includes` | `["modules_app"]` |
+| `excludes` | `[]` |
 | `fileName` | `elixir-module.js` |
 
 ## Running a Single Module
 
 You can compile a single module's assets by using `mix.module()` passing in the module's name:
 
-```js
+```javascript
 // /gulpfile.js
 elixir(mix => {
     mix.module("my-module");
@@ -55,7 +55,7 @@ This will look for the following file: `/modules_app/my-module/elixir-module.js`
 
 The second parameter is a configuration object to change the folderName or fileName to look for:
 
-```js
+```javascript
 elixir(mix => {
     mix.module("my-module", {
         folderName: "new_base_directory",
@@ -68,8 +68,9 @@ elixir(mix => {
 
 If you want use alias for your import in a module, you must use:
 
-```js
+```javascript
 import store from '@moduleName/store.js'
 ```
 
 This would look in `/new_base_directory/my-module/new-filename.js` for the mix function.
+
