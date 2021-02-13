@@ -28,6 +28,10 @@ MIT License: [https:\/\/opensource.org\/licenses\/MIT](https://opensource.org/li
 * Issues: [https:\/\/ortussolutions.atlassian.net\/secure\/RapidBoard.jspa?projectKey=ELIXIR](https://ortussolutions.atlassian.net/secure/RapidBoard.jspa?projectKey=ELIXIR)
 * Documentation: [http:\/\/coldbox-elixir.ortusbooks.com](http://coldbox-elixir.ortusbooks.com)
 
+## Discussion & Help
+
+The Box products help and discussion group can be found here: [https://community.ortussolutions.com/](https://community.ortussolutions.com/)
+
 ## Professional Open Source
 
 ![Ortus Solutions, Corp](.gitbook/assets/ortussolutions_button.png)
