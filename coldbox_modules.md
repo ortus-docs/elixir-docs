@@ -64,6 +64,8 @@ elixir(mix => {
 });
 ```
 
+This would look in `/new_base_directory/my-module/new-filename.js` for the mix function.
+
 ## Module alias
 
 If you want use alias for your import in a module, you must use:
@@ -72,5 +74,5 @@ If you want use alias for your import in a module, you must use:
 import store from '@moduleName/store.js'
 ```
 
-This would look in `/new_base_directory/my-module/new-filename.js` for the mix function.
+
 
