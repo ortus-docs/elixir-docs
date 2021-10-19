@@ -28,6 +28,16 @@ module.exports = elixir(mix => {
 });
 ```
 
+`mix.vue` accepts a configuration object as the second parameter which has the following defaults:
+
+```js
+{
+    name: this.withoutExtension(filename),
+    outputDirectory: "includes/js/",
+    entryDirectory: "resources/assets/js/"
+}
+```
+
 Your `App.js` can look like this:
 
 **resources/assets/js/App.js**
