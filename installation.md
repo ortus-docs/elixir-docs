@@ -18,7 +18,7 @@ If you generate a ColdBox application using any of our [elixir templates](https:
 {
   "private": true,
   "devDependencies": {
-    "coldbox-elixir": "^3.0.0"
+    "coldbox-elixir": "^4.0.1"
   }
 }
 ```
